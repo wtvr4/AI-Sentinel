@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */; };
+		D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72542AE3AC1000236FED /* ContentView.swift */; };
+		D9AB72572AE3AC1200236FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB72562AE3AC1200236FED /* Assets.xcassets */; };
+		D9AB725A2AE3AC1200236FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB72592AE3AC1200236FED /* Preview Assets.xcassets */; };
+		D9AB72602AE3AC1200236FED /* AI-Sentinel Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D9AB725F2AE3AC1200236FED /* AI-Sentinel Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9AB72652AE3AC1200236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72642AE3AC1200236FED /* AI_SentinelApp.swift */; };
+		D9AB72672AE3AC1200236FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72662AE3AC1200236FED /* ContentView.swift */; };
+		D9AB72692AE3AC1300236FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB72682AE3AC1300236FED /* Assets.xcassets */; };
+		D9AB726C2AE3AC1300236FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB726B2AE3AC1300236FED /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9AB72612AE3AC1200236FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AB72472AE3AC1000236FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AB725E2AE3AC1200236FED;
+			remoteInfo = "AI-Sentinel Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9AB72722AE3AC1300236FED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D9AB72602AE3AC1200236FED /* AI-Sentinel Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_SentinelApp.swift; sourceTree = "<group>"; };
+		D9AB72542AE3AC1000236FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AB72562AE3AC1200236FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AB72592AE3AC1200236FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9AB725F2AE3AC1200236FED /* AI-Sentinel Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AB72642AE3AC1200236FED /* AI_SentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_SentinelApp.swift; sourceTree = "<group>"; };
+		D9AB72662AE3AC1200236FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9AB72682AE3AC1300236FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9AB726B2AE3AC1300236FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AB724C2AE3AC1000236FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AB725C2AE3AC1200236FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9AB72462AE3AC1000236FED = {
+			isa = PBXGroup;
+			children = (
+				D9AB72512AE3AC1000236FED /* AI-Sentinel */,
+				D9AB72632AE3AC1200236FED /* AI-Sentinel Watch App */,
+				D9AB72502AE3AC1000236FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AB72502AE3AC1000236FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */,
+				D9AB725F2AE3AC1200236FED /* AI-Sentinel Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AB72512AE3AC1000236FED /* AI-Sentinel */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */,
+				D9AB72542AE3AC1000236FED /* ContentView.swift */,
+				D9AB72562AE3AC1200236FED /* Assets.xcassets */,
+				D9AB72582AE3AC1200236FED /* Preview Content */,
+			);
+			path = "AI-Sentinel";
+			sourceTree = "<group>";
+		};
+		D9AB72582AE3AC1200236FED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB72592AE3AC1200236FED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9AB72632AE3AC1200236FED /* AI-Sentinel Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB72642AE3AC1200236FED /* AI_SentinelApp.swift */,
+				D9AB72662AE3AC1200236FED /* ContentView.swift */,
+				D9AB72682AE3AC1300236FED /* Assets.xcassets */,
+				D9AB726A2AE3AC1300236FED /* Preview Content */,
+			);
+			path = "AI-Sentinel Watch App";
+			sourceTree = "<group>";
+		};
+		D9AB726A2AE3AC1300236FED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB726B2AE3AC1300236FED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9AB724E2AE3AC1000236FED /* AI-Sentinel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AB72732AE3AC1300236FED /* Build configuration list for PBXNativeTarget "AI-Sentinel" */;
+			buildPhases = (
+				D9AB724B2AE3AC1000236FED /* Sources */,
+				D9AB724C2AE3AC1000236FED /* Frameworks */,
+				D9AB724D2AE3AC1000236FED /* Resources */,
+				D9AB72722AE3AC1300236FED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AB72622AE3AC1200236FED /* PBXTargetDependency */,
+			);
+			name = "AI-Sentinel";
+			productName = "AI-Sentinel";
+			productReference = D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9AB725E2AE3AC1200236FED /* AI-Sentinel Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AB726F2AE3AC1300236FED /* Build configuration list for PBXNativeTarget "AI-Sentinel Watch App" */;
+			buildPhases = (
+				D9AB725B2AE3AC1200236FED /* Sources */,
+				D9AB725C2AE3AC1200236FED /* Frameworks */,
+				D9AB725D2AE3AC1200236FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI-Sentinel Watch App";
+			productName = "AI-Sentinel Watch App";
+			productReference = D9AB725F2AE3AC1200236FED /* AI-Sentinel Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AB72472AE3AC1000236FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D9AB724E2AE3AC1000236FED = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D9AB725E2AE3AC1200236FED = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D9AB724A2AE3AC1000236FED /* Build configuration list for PBXProject "AI-Sentinel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9AB72462AE3AC1000236FED;
+			productRefGroup = D9AB72502AE3AC1000236FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AB724E2AE3AC1000236FED /* AI-Sentinel */,
+				D9AB725E2AE3AC1200236FED /* AI-Sentinel Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AB724D2AE3AC1000236FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AB725A2AE3AC1200236FED /* Preview Assets.xcassets in Resources */,
+				D9AB72572AE3AC1200236FED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AB725D2AE3AC1200236FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AB726C2AE3AC1300236FED /* Preview Assets.xcassets in Resources */,
+				D9AB72692AE3AC1300236FED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AB724B2AE3AC1000236FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
+				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AB725B2AE3AC1200236FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AB72672AE3AC1200236FED /* ContentView.swift in Sources */,
+				D9AB72652AE3AC1200236FED /* AI_SentinelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9AB72622AE3AC1200236FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AB725E2AE3AC1200236FED /* AI-Sentinel Watch App */;
+			targetProxy = D9AB72612AE3AC1200236FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9AB726D2AE3AC1300236FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9AB726E2AE3AC1300236FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D9AB72702AE3AC1300236FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Sentinel Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3397DJ29GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MohamedBadir.AI-Sentinel";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamedBadir.AI-Sentinel.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		D9AB72712AE3AC1300236FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Sentinel Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3397DJ29GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MohamedBadir.AI-Sentinel";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamedBadir.AI-Sentinel.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		D9AB72742AE3AC1300236FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Sentinel/Preview Content\"";
+				DEVELOPMENT_TEAM = 3397DJ29GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamedBadir.AI-Sentinel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AB72752AE3AC1300236FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Sentinel/Preview Content\"";
+				DEVELOPMENT_TEAM = 3397DJ29GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamedBadir.AI-Sentinel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AB724A2AE3AC1000236FED /* Build configuration list for PBXProject "AI-Sentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AB726D2AE3AC1300236FED /* Debug */,
+				D9AB726E2AE3AC1300236FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AB726F2AE3AC1300236FED /* Build configuration list for PBXNativeTarget "AI-Sentinel Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AB72702AE3AC1300236FED /* Debug */,
+				D9AB72712AE3AC1300236FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AB72732AE3AC1300236FED /* Build configuration list for PBXNativeTarget "AI-Sentinel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AB72742AE3AC1300236FED /* Debug */,
+				D9AB72752AE3AC1300236FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9AB72472AE3AC1000236FED /* Project object */;
+}
