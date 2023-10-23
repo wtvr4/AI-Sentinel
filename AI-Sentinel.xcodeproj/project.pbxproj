@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66ABD2AE6E85F00F1D91F /* Home.swift */; };
 		D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */; };
 		D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72542AE3AC1000236FED /* ContentView.swift */; };
 		D9AB72572AE3AC1200236FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB72562AE3AC1200236FED /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D9A66ABD2AE6E85F00F1D91F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_SentinelApp.swift; sourceTree = "<group>"; };
 		D9AB72542AE3AC1000236FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9A66AB92AE6E81100F1D91F /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB72542AE3AC1000236FED /* ContentView.swift */,
+				D9A66ABD2AE6E85F00F1D91F /* Home.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
 		D9AB72462AE3AC1000236FED = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */,
-				D9AB72542AE3AC1000236FED /* ContentView.swift */,
+				D9A66AB92AE6E81100F1D91F /* Main Views */,
 				D9AB72562AE3AC1200236FED /* Assets.xcassets */,
 				D9AB72582AE3AC1200236FED /* Preview Content */,
 			);
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
+				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
 				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
