@@ -17,9 +17,19 @@
 		D9AB72672AE3AC1200236FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72662AE3AC1200236FED /* ContentView.swift */; };
 		D9AB72692AE3AC1300236FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB72682AE3AC1300236FED /* Assets.xcassets */; };
 		D9AB726C2AE3AC1300236FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AB726B2AE3AC1300236FED /* Preview Assets.xcassets */; };
+		D9DCE99E2B5445E300A26935 /* FallDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCE99D2B5445E300A26935 /* FallDetectionView.swift */; };
+		D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCE99F2B54460400A26935 /* EmergencyPreferenceView.swift */; };
+		D9DCE9A42B54465300A26935 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCE9A32B54465300A26935 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D96A08432B492875000E8AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AB72472AE3AC1000236FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AB725E2AE3AC1200236FED;
+			remoteInfo = "AI-Sentinel Watch App";
+		};
 		D9AB72612AE3AC1200236FED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9AB72472AE3AC1000236FED /* Project object */;
@@ -55,6 +65,9 @@
 		D9AB72662AE3AC1200236FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9AB72682AE3AC1300236FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AB726B2AE3AC1300236FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9DCE99D2B5445E300A26935 /* FallDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallDetectionView.swift; sourceTree = "<group>"; };
+		D9DCE99F2B54460400A26935 /* EmergencyPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyPreferenceView.swift; sourceTree = "<group>"; };
+		D9DCE9A32B54465300A26935 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D96A08422B492875000E8AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9A66AB92AE6E81100F1D91F /* Main Views */ = {
 			isa = PBXGroup;
 			children = (
-				D9AB72542AE3AC1000236FED /* ContentView.swift */,
-				D9A66ABD2AE6E85F00F1D91F /* Home.swift */,
+				D9DCE9992B543B9F00A26935 /* Home-Page */,
+				D9DCE99A2B543BC900A26935 /* Fall-Detection */,
+				D9DCE99B2B543BF000A26935 /* Fall-Preference */,
+				D9DCE99C2B543C1B00A26935 /* Profile-Settings */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -90,6 +112,7 @@
 				D9AB72512AE3AC1000236FED /* AI-Sentinel */,
 				D9AB72632AE3AC1200236FED /* AI-Sentinel Watch App */,
 				D9AB72502AE3AC1000236FED /* Products */,
+				D96A08422B492875000E8AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */,
+				D9AB72542AE3AC1000236FED /* ContentView.swift */,
 				D9A66AB92AE6E81100F1D91F /* Main Views */,
+				D9DCE9A52B54467B00A26935 /* Components */,
 				D9AB72562AE3AC1200236FED /* Assets.xcassets */,
 				D9AB72582AE3AC1200236FED /* Preview Content */,
 			);
@@ -140,6 +165,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D9DCE9992B543B9F00A26935 /* Home-Page */ = {
+			isa = PBXGroup;
+			children = (
+				D9A66ABD2AE6E85F00F1D91F /* Home.swift */,
+			);
+			path = "Home-Page";
+			sourceTree = "<group>";
+		};
+		D9DCE99A2B543BC900A26935 /* Fall-Detection */ = {
+			isa = PBXGroup;
+			children = (
+				D9DCE99D2B5445E300A26935 /* FallDetectionView.swift */,
+			);
+			path = "Fall-Detection";
+			sourceTree = "<group>";
+		};
+		D9DCE99B2B543BF000A26935 /* Fall-Preference */ = {
+			isa = PBXGroup;
+			children = (
+				D9DCE99F2B54460400A26935 /* EmergencyPreferenceView.swift */,
+			);
+			path = "Fall-Preference";
+			sourceTree = "<group>";
+		};
+		D9DCE99C2B543C1B00A26935 /* Profile-Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D9DCE9A32B54465300A26935 /* Profile.swift */,
+			);
+			path = "Profile-Settings";
+			sourceTree = "<group>";
+		};
+		D9DCE9A52B54467B00A26935 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +220,7 @@
 			);
 			dependencies = (
 				D9AB72622AE3AC1200236FED /* PBXTargetDependency */,
+				D96A08442B492875000E8AFC /* PBXTargetDependency */,
 			);
 			name = "AI-Sentinel";
 			productName = "AI-Sentinel";
@@ -243,8 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
+				D9DCE9A42B54465300A26935 /* Profile.swift in Sources */,
+				D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */,
 				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
 				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
+				D9DCE99E2B5445E300A26935 /* FallDetectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +328,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D96A08442B492875000E8AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AB725E2AE3AC1200236FED /* AI-Sentinel Watch App */;
+			targetProxy = D96A08432B492875000E8AFC /* PBXContainerItemProxy */;
+		};
 		D9AB72622AE3AC1200236FED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9AB725E2AE3AC1200236FED /* AI-Sentinel Watch App */;
@@ -396,6 +469,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MohamedBadir.AI-Sentinel";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
@@ -426,6 +500,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "AI-Sentinel";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "MohamedBadir.AI-Sentinel";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,7 +514,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
