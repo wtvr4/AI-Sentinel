@@ -6,6 +6,8 @@ struct EmergencyPreferenceView: View {
     }
 }
 
-#Preview {
-    EmergencyPreferenceView()
+struct EmergencyPreferenceView_Previews: PreviewProvider {
+    static var previews: some View {
+        EmergencyPreferenceView()
+    }
 }

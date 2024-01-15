@@ -6,6 +6,8 @@ struct FallDetectionView: View {
     }
 }
 
-#Preview {
-    FallDetectionView()
+struct FallDetectionView_Previews: PreviewProvider {
+    static var previews: some View {
+        FallDetectionView()
+    }
 }
