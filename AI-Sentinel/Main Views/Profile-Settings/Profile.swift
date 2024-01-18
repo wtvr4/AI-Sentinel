@@ -2,7 +2,11 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        Text("Profile")
+        ZStack{
+            Color("background")
+                .ignoresSafeArea()
+            Text("Profile")
+        }
     }
 }
 

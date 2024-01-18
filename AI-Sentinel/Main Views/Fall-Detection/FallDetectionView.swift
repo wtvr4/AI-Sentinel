@@ -2,7 +2,11 @@ import SwiftUI
 
 struct FallDetectionView: View {
     var body: some View {
-        Text("Fall Detection View")
+        ZStack{
+            Color("background")
+                .ignoresSafeArea()
+            Text("Fall Detection")
+        }
     }
 }
 

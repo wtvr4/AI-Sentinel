@@ -2,7 +2,11 @@ import SwiftUI
 
 struct EmergencyPreferenceView: View {
     var body: some View {
-        Text("Emergency PreferencecView")
+        ZStack{
+            Color("background")
+                .ignoresSafeArea()
+             Text("Preferences")
+        }
     }
 }
 

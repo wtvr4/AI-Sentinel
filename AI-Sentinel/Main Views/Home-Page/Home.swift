@@ -5,7 +5,12 @@ struct Home: View {
         ZStack{
             Color("background")
                 .ignoresSafeArea()
-            Text("Home")
+        
+        VStack{
+                
+                Text("Home")
+            
+            }
         }
     }
 }
