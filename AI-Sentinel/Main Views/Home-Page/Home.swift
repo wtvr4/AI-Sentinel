@@ -10,21 +10,44 @@ struct Home: View {
                 Text("Hello, Mohamed")
                     .font(.title2)
                     .fontWeight(.bold)
-                    .foregroundColor(.black)
-                    .offset(x: -96, y: 23)
+                    .foregroundColor(Color("text"))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 5)
+                    .padding(.top)
+                    .padding(.bottom, -19)
+                
                 Text("Welcome to AI Sentinel")
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(.black)
-                    .offset(x: -65, y: 23)
+                    .foregroundColor(Color("text"))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 15)
+                    .padding(.top)
+                    
+                
                 Spacer()
                 
-                Text("Recent Updates")
+                Text("Recent Falls")
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("text"))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 5)
+                    .padding(.bottom, 12)
+                
+                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                    
+                
+                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                    
+                
+                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                    
                 
                 Spacer()
+                
+                
+                
             }
             .padding()
         }
