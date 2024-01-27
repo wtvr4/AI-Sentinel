@@ -8,7 +8,7 @@ struct RecentFalls: View {
     var body: some View {
         Text(text)
             .padding()
-            .frame(width: 300, height: 60) // Adjust the width as needed
+            .frame(width: 250, height: 60) // Adjust the width as needed
             .background(
                 RoundedRectangle(cornerRadius: 10)
                     .fill(backgroundColor)

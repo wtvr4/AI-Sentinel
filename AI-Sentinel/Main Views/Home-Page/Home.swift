@@ -1,5 +1,5 @@
 import SwiftUI
-
+import Foundation
 struct Home: View {
     var body: some View {
         ZStack {
@@ -35,19 +35,58 @@ struct Home: View {
                     .padding(.leading, 5)
                     .padding(.bottom, 12)
                 
-                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                    
                 
-                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                    
                 
-                RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack{
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                        
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                    }
+                }
+                
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack{
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                        
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                    }
+                }
+                
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack{
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                        
+                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 15)
+                            .padding(.bottom, 8)
+                    }
+                }
+                
                     
+                    
+                    
+                    
+                    
+
                 
                 Spacer()
-                
-                
-                
             }
             .padding()
         }
