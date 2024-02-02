@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D935AC082B6BA148006845E6 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935AC072B6BA148006845E6 /* Contacts.swift */; };
 		D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */; };
 		D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66ABD2AE6E85F00F1D91F /* Home.swift */; };
 		D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D935AC072B6BA148006845E6 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFalls.swift; sourceTree = "<group>"; };
 		D9A66ABD2AE6E85F00F1D91F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */,
+				D935AC072B6BA148006845E6 /* Contacts.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D935AC082B6BA148006845E6 /* Contacts.swift in Sources */,
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
 				D9DCE9A42B54465300A26935 /* Profile.swift in Sources */,
 				D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */,
