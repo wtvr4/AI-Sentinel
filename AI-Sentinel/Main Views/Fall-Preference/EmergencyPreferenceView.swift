@@ -17,25 +17,38 @@ struct EmergencyPreferenceView: View {
                     .padding(.bottom, -19)
                 
                 Spacer()
-                
-                Text("Emergency Contacts")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color("text"))
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 5)
-                    .padding(.bottom, 12)
-                
+                HStack{
+                    Text("Emergency Contacts")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color("text"))
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 5)
+                        .padding(.bottom, 12)
+                    
+                    Button{
+                        
+                    } label: {
+                        Image(systemName: "plus.app.fill")
+                            .padding(.trailing, 25)
+                            .padding(.bottom, 8)
+                    }
+                    
+                    
+                }
                 
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        Contacts(text: "hu", textColor: .black, backgroundColor: "primary", shadowColor: "secondary")
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                        
-                        Contacts(text: "hu", textColor: .black, backgroundColor: "primary", shadowColor: "secondary")
+                        Button{
+                            
+                        } label: {
+                            Contacts(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .green)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.leading, 15)
+                                .padding(.bottom, 8)
+                        }
+                        Contacts(name: "Dad", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .red)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 15)
                             .padding(.bottom, 8)
@@ -44,12 +57,12 @@ struct EmergencyPreferenceView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        Contacts(text: "hu", textColor: .black, backgroundColor: "primary", shadowColor: "secondary")
+                        Contacts(name: "Brother", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .red)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 15)
                             .padding(.bottom, 8)
                         
-                        Contacts(text: "hu", textColor: .black, backgroundColor: "primary", shadowColor: "secondary")
+                        Contacts(name: "Uncle", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .yellow)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 15)
                             .padding(.bottom, 8)
@@ -61,7 +74,7 @@ struct EmergencyPreferenceView: View {
             }
             .padding()
         }
-
+        
     }
 }
 
