@@ -19,7 +19,7 @@ struct Contacts: View {
                 Text("\(name)")
                     .foregroundColor(Color("text"))
                 Circle()
-                    .fill(Color(.green))
+                    .fill(Color(status))
                     .shadow(color: Color("\(shadowColor)").opacity(0.5), radius: 5, x: 0, y: 4)
                     .frame(width: 10, height: 10, alignment: .leading)
                     .padding(.leading)
