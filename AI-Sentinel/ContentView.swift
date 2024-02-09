@@ -21,7 +21,7 @@ struct ContentView: View {
                     Label("Preference", systemImage: "exclamationmark.triangle")
                 }
             
-            Profile()
+            Profile(contactManager: ContactManager())
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
@@ -34,12 +34,6 @@ struct ContentView: View {
     
     
     
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
-    }
     
     func startFallDetection() {
         if motionManager.isAccelerometerAvailable {
@@ -65,5 +59,12 @@ struct ContentView: View {
         
         // You can also perform additional actions or show an alert here
         print("Fall Detected. Initiating Phone Call.")
+    }
+}
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }

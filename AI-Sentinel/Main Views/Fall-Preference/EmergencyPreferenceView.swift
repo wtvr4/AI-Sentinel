@@ -2,9 +2,9 @@ import SwiftUI
 
 struct EmergencyPreferenceView: View {
     
-    var contactsData: [[ContactData]] = [
-        [ContactData(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .green)],
-        [ContactData(name: "Grandpa", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .green)],
+    var contactsData: [[Contact]] = [
+        [Contact(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")],
+        [Contact(name: "Grandpa", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")],
     ]
     
     @State var contactsAmount: Int
@@ -29,6 +29,7 @@ struct EmergencyPreferenceView: View {
                     .padding(.leading, 5)
                     .padding(.top)
                     .padding(.bottom, -19)
+                
                 
                 Spacer()
                 HStack{
@@ -63,7 +64,7 @@ struct EmergencyPreferenceView: View {
                                 Button{
                                     // action for button
                                 } label: {
-                                    Contacts(name: contact.name, textColor: contact.textColor, backgroundColor: contact.backgroundColor, shadowColor: contact.shadowColor, status: contact.status)
+                                    ContactView(name: contact.name, textColor: contact.textColor, backgroundColor: contact.backgroundColor, shadowColor: contact.shadowColor)
                                         .frame(maxWidth: .infinity, alignment: .leading)
                                         .padding(.leading, 15)
                                         .padding(.bottom, 8)
@@ -78,6 +79,8 @@ struct EmergencyPreferenceView: View {
                 Spacer()
             }
             .padding()
+            
+        
         }
         
     }
@@ -90,9 +93,9 @@ struct EmergencyPreferenceView_Previews: PreviewProvider {
 }
 
 
-func AddContact() -> ContactData {
-    Form() {
-        
-    }
-    return ContactData(name: "", textColor: "", backgroundColor: "", shadowColor: "", status: .red)
-}
+//func AddContact() -> Contact {
+//    Form() {
+//        
+//    }
+//    return Contact(name: "", textColor: "", backgroundColor: "", shadowColor: "")
+//}

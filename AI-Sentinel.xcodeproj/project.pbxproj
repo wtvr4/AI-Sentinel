@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D935AC082B6BA148006845E6 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935AC072B6BA148006845E6 /* Contacts.swift */; };
-		D9509F732B6F92C7009B9B82 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9509F722B6F92C7009B9B82 /* ContactData.swift */; };
+		D91E33522B76786B00352AF4 /* NewContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33512B76786B00352AF4 /* NewContact.swift */; };
+		D91E33542B767B0500352AF4 /* Contacts-Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33532B767B0500352AF4 /* Contacts-Sample.swift */; };
+		D91E33562B767B1D00352AF4 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33552B767B1D00352AF4 /* ContactView.swift */; };
+		D91E33582B767C2F00352AF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33572B767C2F00352AF4 /* Contact.swift */; };
 		D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */; };
+		D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994BF5B2B76855300D37D97 /* ContactManager.swift */; };
 		D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66ABD2AE6E85F00F1D91F /* Home.swift */; };
 		D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */; };
 		D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72542AE3AC1000236FED /* ContentView.swift */; };
@@ -57,9 +60,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D935AC072B6BA148006845E6 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
-		D9509F722B6F92C7009B9B82 /* ContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
+		D91E33512B76786B00352AF4 /* NewContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContact.swift; sourceTree = "<group>"; };
+		D91E33532B767B0500352AF4 /* Contacts-Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts-Sample.swift"; sourceTree = "<group>"; };
+		D91E33552B767B1D00352AF4 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		D91E33572B767C2F00352AF4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFalls.swift; sourceTree = "<group>"; };
+		D994BF5B2B76855300D37D97 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
 		D9A66ABD2AE6E85F00F1D91F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_SentinelApp.swift; sourceTree = "<group>"; };
@@ -94,12 +100,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9509F712B6F92AB009B9B82 /* Structs */ = {
+		D91E33502B76784E00352AF4 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				D9509F722B6F92C7009B9B82 /* ContactData.swift */,
+				D91E33512B76786B00352AF4 /* NewContact.swift */,
+				D91E33532B767B0500352AF4 /* Contacts-Sample.swift */,
+				D91E33552B767B1D00352AF4 /* ContactView.swift */,
+				D91E33572B767C2F00352AF4 /* Contact.swift */,
+				D994BF5B2B76855300D37D97 /* ContactManager.swift */,
 			);
-			path = Structs;
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 		D96A08422B492875000E8AFC /* Frameworks */ = {
@@ -146,7 +156,6 @@
 				D9AB72542AE3AC1000236FED /* ContentView.swift */,
 				D9A66AB92AE6E81100F1D91F /* Main Views */,
 				D9DCE9A52B54467B00A26935 /* Components */,
-				D9509F712B6F92AB009B9B82 /* Structs */,
 				D9AB72562AE3AC1200236FED /* Assets.xcassets */,
 				D9AB72582AE3AC1200236FED /* Preview Content */,
 			);
@@ -216,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */,
-				D935AC072B6BA148006845E6 /* Contacts.swift */,
+				D91E33502B76784E00352AF4 /* Contacts */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -324,14 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D935AC082B6BA148006845E6 /* Contacts.swift in Sources */,
+				D91E33582B767C2F00352AF4 /* Contact.swift in Sources */,
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
 				D9DCE9A42B54465300A26935 /* Profile.swift in Sources */,
 				D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */,
 				D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */,
-				D9509F732B6F92C7009B9B82 /* ContactData.swift in Sources */,
 				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
+				D91E33562B767B1D00352AF4 /* ContactView.swift in Sources */,
+				D91E33522B76786B00352AF4 /* NewContact.swift in Sources */,
 				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
+				D91E33542B767B0500352AF4 /* Contacts-Sample.swift in Sources */,
+				D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */,
 				D9DCE99E2B5445E300A26935 /* FallDetectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

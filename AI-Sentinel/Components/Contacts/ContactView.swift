@@ -1,11 +1,11 @@
 import SwiftUI
 
-struct Contacts: View {
+struct ContactView: View {
     var name: String
     var textColor: String
     var backgroundColor: String
     var shadowColor: String
-    var status: Color
+    //var status: Color
 
     var body: some View {
         ZStack{
@@ -19,7 +19,8 @@ struct Contacts: View {
                 Text("\(name)")
                     .foregroundColor(Color("text"))
                 Circle()
-                    .fill(Color(status))
+                    .fill(.green)
+                   // .fill(Color(status))
                     .shadow(color: Color("\(shadowColor)").opacity(0.5), radius: 5, x: 0, y: 4)
                     .frame(width: 10, height: 10, alignment: .leading)
                     .padding(.leading)
@@ -30,8 +31,8 @@ struct Contacts: View {
     }
 }
 
-struct Previews_Contacts: PreviewProvider {
+struct Previews_ContactView: PreviewProvider {
     static var previews: some View {
-        Contacts(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary", status: .green)
+        ContactView(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")
     }
 }
