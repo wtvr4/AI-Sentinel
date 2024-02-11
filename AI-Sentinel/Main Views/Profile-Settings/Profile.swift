@@ -9,9 +9,14 @@ struct Profile: View {
         ZStack {
             VStack {
                 NavigationStack {
-                    List {
+                    HStack {
                         ForEach(contactManager.todosFiltered.wrappedValue) { friend in
-                            ContactView(name: friend.name, textColor: friend.textColor, backgroundColor: friend.backgroundColor, shadowColor: friend.shadowColor)
+                            Button{
+                                
+                            } label: {
+                                ContactView(name: friend.name, textColor: friend.textColor, backgroundColor: friend.backgroundColor, shadowColor: friend.shadowColor)
+                            }
+                            
                         }
                     }
                     .searchable(text: $contactManager.serchTerms) // Fix typo here
