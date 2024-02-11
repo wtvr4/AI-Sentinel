@@ -3,8 +3,8 @@ import SwiftUI
 struct EmergencyPreferenceView: View {
     
     var contactsData: [[Contact]] = [
-        [Contact(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")],
-        [Contact(name: "Grandpa", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")],
+        [Contact(name: "Mohamed", textColor: "text1", backgroundColor: "secondary1", shadowColor: "accent1")],
+        [Contact(name: "Grandpa", textColor: "text1", backgroundColor: "secondary1", shadowColor: "accent1")],
     ]
     
     @State var contactsAmount: Int
@@ -95,7 +95,7 @@ struct EmergencyPreferenceView_Previews: PreviewProvider {
 
 //func AddContact() -> Contact {
 //    Form() {
-//        
+//
 //    }
 //    return Contact(name: "", textColor: "", backgroundColor: "", shadowColor: "")
 //}
