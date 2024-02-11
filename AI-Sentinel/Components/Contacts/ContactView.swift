@@ -17,7 +17,7 @@ struct ContactView: View {
             HStack(spacing: 5){
                 Image(systemName: "person.fill")
                 Text("\(name)")
-                    .foregroundColor(Color("text"))
+                    .foregroundColor(Color(textColor))
                 Circle()
                     .fill(.green)
                    // .fill(Color(status))
