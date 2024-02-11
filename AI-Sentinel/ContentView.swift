@@ -21,7 +21,7 @@ struct ContentView: View {
                     Label("Preference", systemImage: "exclamationmark.triangle")
                 }
             
-            Profile(contactManager: ContactManager())
+            Profile()
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }

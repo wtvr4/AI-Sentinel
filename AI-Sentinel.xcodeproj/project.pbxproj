@@ -12,6 +12,7 @@
 		D91E33562B767B1D00352AF4 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33552B767B1D00352AF4 /* ContactView.swift */; };
 		D91E33582B767C2F00352AF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33572B767C2F00352AF4 /* Contact.swift */; };
 		D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */; };
+		D983ACB32B78EA3400BD3DCB /* SectionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */; };
 		D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994BF5B2B76855300D37D97 /* ContactManager.swift */; };
 		D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A66ABD2AE6E85F00F1D91F /* Home.swift */; };
 		D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB72522AE3AC1000236FED /* AI_SentinelApp.swift */; };
@@ -65,6 +66,7 @@
 		D91E33552B767B1D00352AF4 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		D91E33572B767C2F00352AF4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFalls.swift; sourceTree = "<group>"; };
+		D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowView.swift; sourceTree = "<group>"; };
 		D994BF5B2B76855300D37D97 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
 		D9A66ABD2AE6E85F00F1D91F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D9AB724F2AE3AC1000236FED /* AI-Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Sentinel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */,
+				D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */,
 				D91E33502B76784E00352AF4 /* Contacts */,
 			);
 			path = Components;
@@ -336,6 +339,7 @@
 				D91E33582B767C2F00352AF4 /* Contact.swift in Sources */,
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
 				D9DCE9A42B54465300A26935 /* Profile.swift in Sources */,
+				D983ACB32B78EA3400BD3DCB /* SectionRowView.swift in Sources */,
 				D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */,
 				D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */,
 				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
