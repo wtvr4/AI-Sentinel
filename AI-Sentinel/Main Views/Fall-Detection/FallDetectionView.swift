@@ -14,7 +14,7 @@ struct FallDetectionView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 18)
                     .padding(.top)
-                    .padding(.bottom, 20)
+                    .padding(.bottom, 40)
                 
                 
                 Text("Recent Falls")
@@ -29,45 +29,58 @@ struct FallDetectionView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
+                        RecentFalls(
+                            fallDescription: "Fall Detected",
+                            fallDate: "Feb 12, 2024",
+                            textColor: .black,
+                            backgroundColor: Color("secondary1"),
+                            imageColor: .red
+                        )
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 15)
+                        .padding(.bottom, 8)
                         
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
+                        RecentFalls(
+                            fallDescription: "Fall Detected",
+                            fallDate: "Feb 10, 2024",
+                            textColor: .black,
+                            backgroundColor: Color("secondary1"),
+                            imageColor: .yellow
+
+                        )
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 10)
+                        .padding(.bottom, 8)
                     }
                 }
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
+                        RecentFalls(
+                            fallDescription: "Fall Detected",
+                            fallDate: "Jan 7, 2024",
+                            textColor: .black,
+                            backgroundColor: Color("secondary1"),
+                            imageColor: .yellow
+                        )
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 15)
+                        .padding(.bottom, 8)
                         
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
+                        RecentFalls(
+                            fallDescription: "Fall Detected",
+                            fallDate: "Jan 6, 2024",
+                            textColor: .black,
+                            backgroundColor: Color("secondary1"),
+                            imageColor: .yellow
+                        )
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.leading, 10)
+                        .padding(.bottom, 8)
                     }
                 }
                 
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                        
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                    }
-                }
+                
                 
                 
                 
@@ -93,7 +106,7 @@ struct FallDetectionView: View {
                         .padding(.leading, 15)
                         .padding(.bottom, 8)
                         ConnectedDeviceView(deviceName: "Rashid's Apple Watch", isConnected: false,
-                                            icon: Image(systemName: "applewatch.slash"), battery: "10%")
+                                            icon: Image(systemName: "applewatch.slash"), battery: "10")
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 10)
                         .padding(.bottom, 8)

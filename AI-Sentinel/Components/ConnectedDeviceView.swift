@@ -38,7 +38,7 @@ struct ConnectedDeviceView: View {
         .frame(width: 300, height: 100)
         .background(
             RoundedRectangle(cornerRadius: 15)
-                .fill(Color("secondary1"))
+                .fill(Color("accent1"))
                 .shadow(color: Color("accent1").opacity(0.5), radius: 8, x: 0, y: 4)
         )
     }

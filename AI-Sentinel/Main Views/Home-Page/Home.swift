@@ -23,7 +23,7 @@ struct Home: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 15)
                     .padding(.top)
-                    
+                
                 
                 Spacer()
                 
@@ -37,54 +37,35 @@ struct Home: View {
                 
                 
                 
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                        
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                    }
-                }
+//                ScrollView(.horizontal, showsIndicators: false){
+//                    HStack{
+//                        RecentFalls(
+//                            fallDescription: "Fall Detected",
+//                            fallDate: "Feb 12, 2024",
+//                            textColor: .black,
+//                            backgroundColor: Color("secondary1")
+//                        )
+//                        .frame(maxWidth: .infinity, alignment: .leading)
+//                        .padding(.leading, 15)
+//                        .padding(.bottom, 8)
+//                        
+//                        RecentFalls(
+//                            fallDescription: "Fall Detected",
+//                            fallDate: "Feb 12, 2024",
+//                            textColor: .black,
+//                            backgroundColor: Color("secondary1")
+//                        )
+//                        .frame(maxWidth: .infinity, alignment: .leading)
+//                        .padding(.leading, 10)
+//                        .padding(.bottom, 8)
+//                    }
+//                }
                 
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                        
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                    }
-                }
+    
                 
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack{
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                        
-                        RecentFalls(text: "hu", textColor: .black, backgroundColor: .white)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 15)
-                            .padding(.bottom, 8)
-                    }
-                }
                 
-                    
-                    
-                    
-                    
-                    
-
+                
+                
                 
                 Spacer()
             }
