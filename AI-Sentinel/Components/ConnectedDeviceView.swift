@@ -4,6 +4,7 @@ struct ConnectedDeviceView: View {
     var deviceName: String
     var isConnected: Bool
     var icon: Image
+    var battery: String
     
     var body: some View {
         HStack {
@@ -11,6 +12,7 @@ struct ConnectedDeviceView: View {
                 .resizable()
                 .frame(width: 35, height: 40)
                 .padding(8)
+                .padding(.leading, 3)
             
             // Device Info
             VStack(alignment: .leading) {
@@ -20,7 +22,7 @@ struct ConnectedDeviceView: View {
                     .foregroundColor(.primary)
                 
                 // Additional details
-                Text("Battery: 80%")
+                Text("Battery: \(battery)%")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
@@ -44,6 +46,6 @@ struct ConnectedDeviceView: View {
 
 struct ConnectedDeviceView_Previews: PreviewProvider {
     static var previews: some View {
-        ConnectedDeviceView(deviceName: "Mohamed's Apple Watch", isConnected: true, icon: Image(systemName: "applewatch"))
+        ConnectedDeviceView(deviceName: "Mohamed's Apple Watch", isConnected: true, icon: Image(systemName: "applewatch"), battery: "80")
     }
 }
