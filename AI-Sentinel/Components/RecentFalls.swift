@@ -34,7 +34,7 @@ struct RecentFalls: View {
         .background(
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color(backgroundColor))
-                .shadow(color: Color("accent1").opacity(0.5), radius: 5, x: 0, y: 4)
+                .shadow(color: Color("secondary1").opacity(0.5), radius: 5, x: 0, y: 4)
         )
     }
 }

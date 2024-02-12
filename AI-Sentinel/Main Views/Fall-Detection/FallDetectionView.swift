@@ -3,7 +3,7 @@ import SwiftUI
 struct FallDetectionView: View {
     var body: some View {
         ZStack{
-            Color("background")
+            Color("background1")
                 .ignoresSafeArea()
             VStack{
                 
@@ -20,7 +20,7 @@ struct FallDetectionView: View {
                 Text("Recent Falls")
                     .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(Color("text"))
+                    .foregroundColor(Color("text1"))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 18)
                     .padding(.bottom, 12)

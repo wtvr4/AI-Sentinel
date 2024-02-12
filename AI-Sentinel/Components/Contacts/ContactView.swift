@@ -33,6 +33,6 @@ struct ContactView: View {
 
 struct Previews_ContactView: PreviewProvider {
     static var previews: some View {
-        ContactView(name: "Mohamed", textColor: "text", backgroundColor: "primary", shadowColor: "secondary")
+        ContactView(name: "Mohamed", textColor: "text1", backgroundColor: "secondary1", shadowColor: "secondary1")
     }
 }

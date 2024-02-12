@@ -39,7 +39,7 @@ struct ConnectedDeviceView: View {
         .background(
             RoundedRectangle(cornerRadius: 15)
                 .fill(Color("accent1"))
-                .shadow(color: Color("accent1").opacity(0.5), radius: 8, x: 0, y: 4)
+                .shadow(color: Color("secondary1").opacity(0.5), radius: 8, x: 0, y: 4)
         )
     }
 }
