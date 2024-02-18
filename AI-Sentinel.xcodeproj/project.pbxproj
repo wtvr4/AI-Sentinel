@@ -12,6 +12,7 @@
 		D91E33562B767B1D00352AF4 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33552B767B1D00352AF4 /* ContactView.swift */; };
 		D91E33582B767C2F00352AF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33572B767C2F00352AF4 /* Contact.swift */; };
 		D9428E232B7A581600CBC194 /* ConnectedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */; };
+		D946042F2B8250F300E3002F /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946042E2B8250F300E3002F /* PreferencesView.swift */; };
 		D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */; };
 		D983ACB32B78EA3400BD3DCB /* SectionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */; };
 		D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994BF5B2B76855300D37D97 /* ContactManager.swift */; };
@@ -67,6 +68,7 @@
 		D91E33552B767B1D00352AF4 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		D91E33572B767C2F00352AF4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDeviceView.swift; sourceTree = "<group>"; };
+		D946042E2B8250F300E3002F /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFalls.swift; sourceTree = "<group>"; };
 		D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowView.swift; sourceTree = "<group>"; };
 		D994BF5B2B76855300D37D97 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
@@ -114,6 +116,15 @@
 				D994BF5B2B76855300D37D97 /* ContactManager.swift */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D94604302B82510800E3002F /* PreferencesPage */ = {
+			isa = PBXGroup;
+			children = (
+				D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */,
+				D946042E2B8250F300E3002F /* PreferencesView.swift */,
+			);
+			path = PreferencesPage;
 			sourceTree = "<group>";
 		};
 		D96A08422B492875000E8AFC /* Frameworks */ = {
@@ -228,10 +239,10 @@
 		D9DCE9A52B54467B00A26935 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D94604302B82510800E3002F /* PreferencesPage */,
+				D91E33502B76784E00352AF4 /* Contacts */,
 				D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */,
 				D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */,
-				D91E33502B76784E00352AF4 /* Contacts */,
-				D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -349,6 +360,7 @@
 				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
 				D91E33562B767B1D00352AF4 /* ContactView.swift in Sources */,
 				D91E33522B76786B00352AF4 /* NewContact.swift in Sources */,
+				D946042F2B8250F300E3002F /* PreferencesView.swift in Sources */,
 				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
 				D91E33542B767B0500352AF4 /* Contacts-Sample.swift in Sources */,
 				D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */,

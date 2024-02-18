@@ -6,6 +6,7 @@ struct ContactView: View {
     var backgroundColor: String
     var shadowColor: String
     //var status: Color
+    var image: String
 
     var body: some View {
         ZStack{
@@ -15,7 +16,7 @@ struct ContactView: View {
                 .shadow(color: Color("\(shadowColor)").opacity(0.5), radius: 5, x: 0, y: 4)
             
             HStack(spacing: 5){
-                Image(systemName: "person.fill")
+                Image(systemName: image)
                 Text("\(name)")
                     .foregroundColor(Color(textColor))
                 Circle()
@@ -33,6 +34,6 @@ struct ContactView: View {
 
 struct Previews_ContactView: PreviewProvider {
     static var previews: some View {
-        ContactView(name: "Mohamed", textColor: "text1", backgroundColor: "secondary1", shadowColor: "secondary1")
+        ContactView(name: "Mohamed", textColor: "text1", backgroundColor: "secondary1", shadowColor: "secondary1", image: "person")
     }
 }

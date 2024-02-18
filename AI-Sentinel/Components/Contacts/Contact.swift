@@ -6,6 +6,7 @@ struct Contact: Identifiable, Codable, Hashable {
     var textColor: String
     var backgroundColor: String
     var shadowColor: String
+    // var image: String
 }
 
 
