@@ -13,6 +13,9 @@
 		D91E33582B767C2F00352AF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E33572B767C2F00352AF4 /* Contact.swift */; };
 		D9428E232B7A581600CBC194 /* ConnectedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */; };
 		D946042F2B8250F300E3002F /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946042E2B8250F300E3002F /* PreferencesView.swift */; };
+		D9472B3A2BF254B00032DEF4 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9472B392BF254B00032DEF4 /* Details.swift */; };
+		D9472B3C2BF255330032DEF4 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9472B3B2BF255330032DEF4 /* Appearance.swift */; };
+		D9472B3E2BF255370032DEF4 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9472B3D2BF255370032DEF4 /* Language.swift */; };
 		D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */; };
 		D983ACB32B78EA3400BD3DCB /* SectionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */; };
 		D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994BF5B2B76855300D37D97 /* ContactManager.swift */; };
@@ -69,6 +72,9 @@
 		D91E33572B767C2F00352AF4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		D9428E222B7A581600CBC194 /* ConnectedDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDeviceView.swift; sourceTree = "<group>"; };
 		D946042E2B8250F300E3002F /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		D9472B392BF254B00032DEF4 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		D9472B3B2BF255330032DEF4 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		D9472B3D2BF255370032DEF4 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		D970A3F02B6414AB00F3FF5E /* RecentFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFalls.swift; sourceTree = "<group>"; };
 		D983ACB22B78EA3400BD3DCB /* SectionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRowView.swift; sourceTree = "<group>"; };
 		D994BF5B2B76855300D37D97 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
@@ -125,6 +131,16 @@
 				D946042E2B8250F300E3002F /* PreferencesView.swift */,
 			);
 			path = PreferencesPage;
+			sourceTree = "<group>";
+		};
+		D9472B382BF254A20032DEF4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D9472B392BF254B00032DEF4 /* Details.swift */,
+				D9472B3B2BF255330032DEF4 /* Appearance.swift */,
+				D9472B3D2BF255370032DEF4 /* Language.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		D96A08422B492875000E8AFC /* Frameworks */ = {
@@ -232,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DCE9A32B54465300A26935 /* Profile.swift */,
+				D9472B382BF254A20032DEF4 /* Settings */,
 			);
 			path = "Profile-Settings";
 			sourceTree = "<group>";
@@ -353,8 +370,10 @@
 				D91E33582B767C2F00352AF4 /* Contact.swift in Sources */,
 				D9AB72552AE3AC1000236FED /* ContentView.swift in Sources */,
 				D9DCE9A42B54465300A26935 /* Profile.swift in Sources */,
+				D9472B3E2BF255370032DEF4 /* Language.swift in Sources */,
 				D983ACB32B78EA3400BD3DCB /* SectionRowView.swift in Sources */,
 				D9428E232B7A581600CBC194 /* ConnectedDeviceView.swift in Sources */,
+				D9472B3C2BF255330032DEF4 /* Appearance.swift in Sources */,
 				D9DCE9A02B54460400A26935 /* EmergencyPreferenceView.swift in Sources */,
 				D970A3F12B6414AB00F3FF5E /* RecentFalls.swift in Sources */,
 				D9A66ABE2AE6E85F00F1D91F /* Home.swift in Sources */,
@@ -364,6 +383,7 @@
 				D9AB72532AE3AC1000236FED /* AI_SentinelApp.swift in Sources */,
 				D91E33542B767B0500352AF4 /* Contacts-Sample.swift in Sources */,
 				D994BF5C2B76855300D37D97 /* ContactManager.swift in Sources */,
+				D9472B3A2BF254B00032DEF4 /* Details.swift in Sources */,
 				D9DCE99E2B5445E300A26935 /* FallDetectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
