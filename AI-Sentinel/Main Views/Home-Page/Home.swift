@@ -43,46 +43,7 @@ struct Home: View {
                 }
                 
                 
-                //                Text("Recent Falls")
-                //                    .font(.title3)
-                //                    .fontWeight(.semibold)
-                //                    .foregroundColor(Color("text"))
-                //                    .frame(maxWidth: .infinity, alignment: .leading)
-                //                    .padding(.leading, 5)
-                //                    .padding(.bottom, 12)
-                //
-                
-                
-                //                ScrollView(.horizontal, showsIndicators: false){
-                //                    HStack{
-                //                        RecentFalls(
-                //                            fallDescription: "Fall Detected",
-                //                            fallDate: "Feb 12, 2024",
-                //                            textColor: .black,
-                //                            backgroundColor: Color("secondary1")
-                //                        )
-                //                        .frame(maxWidth: .infinity, alignment: .leading)
-                //                        .padding(.leading, 15)
-                //                        .padding(.bottom, 8)
-                //
-                //                        RecentFalls(
-                //                            fallDescription: "Fall Detected",
-                //                            fallDate: "Feb 12, 2024",
-                //                            textColor: .black,
-                //                            backgroundColor: Color("secondary1")
-                //                        )
-                //                        .frame(maxWidth: .infinity, alignment: .leading)
-                //                        .padding(.leading, 10)
-                //                        .padding(.bottom, 8)
-                //                    }
-                //                }
-                
-                
-                
-                
-                
-                
-                
+                  
                 Spacer()
             }
             .padding()
