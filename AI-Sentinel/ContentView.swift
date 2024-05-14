@@ -54,7 +54,7 @@ struct ContentView: View {
 //    
 //    func handleFallEvent() {
 //        // Fall detected, initiate phone call
-//        if let phoneURL = URL(string: "tel://0527714473") {
+//        if let phoneURL = URL(string: "tel://0506605235") {
 //            UIApplication.shared.open(phoneURL, options: [:], completionHandler: nil)
 //        }
 //        

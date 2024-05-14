@@ -86,7 +86,7 @@ struct FallDetectionView: View {
                 
                 Spacer()
                 
-                Text("Connected Devices")
+                Text("Nearby Contacts")
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(Color("text"))
@@ -100,13 +100,13 @@ struct FallDetectionView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        ConnectedDeviceView(deviceName: "Mohamed's Apple Watch", isConnected: true,
-                                            icon: Image(systemName: "applewatch"), battery: "80")
+                        ConnectedDeviceView(deviceName: "Father", isConnected: true,
+                                            icon: Image(systemName: "person.fill"), battery: "2")
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 15)
                         .padding(.bottom, 8)
-                        ConnectedDeviceView(deviceName: "Rashid's Apple Watch", isConnected: false,
-                                            icon: Image(systemName: "applewatch.slash"), battery: "10")
+                        ConnectedDeviceView(deviceName: "Brother", isConnected: false,
+                                            icon: Image(systemName: "person.slash.fill"), battery: "100")
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 10)
                         .padding(.bottom, 8)
@@ -116,8 +116,8 @@ struct FallDetectionView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
-                        ConnectedDeviceView(deviceName: "Saif's Apple Watch", isConnected: false,
-                                            icon: Image(systemName: "applewatch.slash"), battery: "0")
+                        ConnectedDeviceView(deviceName: "Ahmad", isConnected: false,
+                                            icon: Image(systemName: "person.slash.fill"), battery: "N/A ")
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 15)
                         .padding(.bottom, 8)

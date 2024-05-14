@@ -22,14 +22,14 @@ struct MainContactListView: View {
 
     var body: some View {
         ZStack {
-            Color("background")
+            Color("tempback")
             VStack {
                 Text("Emergency Preferences")
                     .font(.title)
                     .fontWeight(.bold)
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                // .background(Color("background1")) // Set background color if needed
+               .background(Color("tempback")) 
                 
                 NavigationStack {
                     List($contactManager.contacts, editActions: [.all]) { $contact in
@@ -70,6 +70,7 @@ struct MainContactListView: View {
             }
             
             VStack{
+                Spacer()
                 HStack{
                     Spacer()
                     Text("Call Preferences")
@@ -106,7 +107,7 @@ struct MainContactListView: View {
                         ambulanceState = true
                     }
                 } label: {
-                    PreferencesView(text: "Call Ambulance   ", status: ambulanceColor, shapeColor: "accent1")
+                    PreferencesView(text: "Call Ambulance", status: ambulanceColor, shapeColor: "accent1")
                         .padding(.bottom, 10)
                 }
                 
@@ -132,10 +133,11 @@ struct MainContactListView: View {
                         policeState = true
                     }
                 } label: {
-                    PreferencesView(text: "Call Police              ", status: policeColor, shapeColor: "accent1")
+                    PreferencesView(text: "Call Police", status: policeColor, shapeColor: "accent1")
                         .padding(.bottom, -10)
-                    
                 }
+                
+                Spacer()
                 
             }
         }
