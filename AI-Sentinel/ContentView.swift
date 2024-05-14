@@ -2,6 +2,7 @@ import SwiftUI
 import CoreMotion
 
 struct ContentView: View {
+    @StateObject var contactManager = ContactManager()
     let motionManager = CMMotionManager()
     var body: some View {
         
@@ -16,7 +17,7 @@ struct ContentView: View {
                     Label("Detector", systemImage: "eye")
                 }
             
-            EmergencyPreferenceView()
+            MainContactListView(contactManager: contactManager)
                 .tabItem {
                     Label("Preference", systemImage: "exclamationmark.triangle")
                 }
