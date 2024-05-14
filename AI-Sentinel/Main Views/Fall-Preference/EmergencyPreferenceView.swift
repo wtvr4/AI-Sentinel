@@ -150,11 +150,11 @@ struct EmergencyPreferenceView: View {
         
     }
 
-struct EmergencyPreferenceView_Previews: PreviewProvider {
-    static var previews: some View {
-        EmergencyPreferenceView()
-    }
-}
+//struct EmergencyPreferenceView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        EmergencyPreferenceView()
+//    }
+//}
 
 
 //func AddContact() -> Contact {

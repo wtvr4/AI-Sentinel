@@ -11,8 +11,8 @@ struct NewContactView: View {
         Form {
             Section("Info") {
                 TextField("Name", text: $friendName)
-                TextField("Age", text: $friendAge)
-                Toggle("Bestfriend?", isOn: $isBestFriend)
+                TextField("Number", text: $friendAge)
+                Toggle("Main Contact?", isOn: $isBestFriend)
                     
             }
             Section("Actions") {

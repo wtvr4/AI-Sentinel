@@ -6,11 +6,11 @@ struct ContactDetailView: View {
     var body: some View {
         Form {
             TextField("Name", text: $contact.name)
-            TextField("Age", value: $contact.age, formatter: NumberFormatter())
+            TextField("Number", value: $contact.age, formatter: NumberFormatter())
                 .foregroundColor(.gray)
-            Toggle("Bestfriend?", isOn: $contact.isBestFriend)
+            Toggle("Active Number?", isOn: $contact.isBestFriend)
         }
-        .navigationTitle("Friend Detail")
+        .navigationTitle("Contact Detail")
     }
 }
 

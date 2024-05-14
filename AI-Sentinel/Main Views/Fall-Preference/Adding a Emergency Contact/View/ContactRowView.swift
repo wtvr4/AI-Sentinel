@@ -8,7 +8,7 @@ struct ContactRowView: View {
             ContactDetailView(contact: $contact)
         } label: {
             HStack {
-                Image(systemName: contact.isBestFriend ? "face.smiling.inverse" : "circle")
+                Image(systemName: contact.isBestFriend ? "phone" : "exclamationmark.triangle.fill")
                     .onTapGesture {
                         contact.isBestFriend.toggle()
                     }

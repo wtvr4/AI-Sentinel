@@ -5,6 +5,21 @@ struct MainContactListView: View {
     @State private var showConfirmAlert = false
     @ObservedObject var contactManager: ContactManager
     
+    @State private var ambulanceColor: Color = .green
+    @State private var ambulanceState: Bool = true
+    @State private var mainContactColor: Color = .green
+    @State private var mainContactState: Bool = true
+
+    @State private var policeColor: Color = .red
+    @State private var policeState: Bool = false
+
+    
+    @State private var constantGreen: Color = .green
+    @State private var constantRed: Color = .red
+    
+    @State private var editState: Bool = false
+    @State private var editName: String = "Edit"
+
     var body: some View {
         ZStack {
             Color("background")
@@ -14,7 +29,7 @@ struct MainContactListView: View {
                     .fontWeight(.bold)
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                   // .background(Color("background1")) // Set background color if needed
+                // .background(Color("background1")) // Set background color if needed
                 
                 NavigationStack {
                     List($contactManager.contacts, editActions: [.all]) { $contact in
@@ -25,13 +40,13 @@ struct MainContactListView: View {
                             EditButton()
                         }
                         ToolbarItemGroup(placement: .navigationBarTrailing){
-                            #if DEBUG
+#if DEBUG
                             Button {
                                 showAddSheet = true
                             } label: {
                                 Image(systemName: "plus")
                             }
-                            #endif
+#endif
                             
                             Menu {
                                 Text("Sort By...")
@@ -56,6 +71,7 @@ struct MainContactListView: View {
             
             VStack{
                 HStack{
+                    Spacer()
                     Text("Call Preferences")
                         .font(.title3)
                         .fontWeight(.semibold)
@@ -65,23 +81,63 @@ struct MainContactListView: View {
                         .padding(.bottom, 12)
                     
                     Button{
-                        // does nothing for now
+                        if editState == false {
+                            editState = true
+                            editName = "Done"
+                        } else {
+                            editState = false
+                            editName = "Edit"
+                        }
                     } label: {
-                        Text("Edit")
+                        Text("\(editName)")
                             .padding(.trailing, 25)
                             .padding(.bottom, 8)
                             .foregroundColor(.blue)
                     }
                 }
                 
-                PreferencesView(text: "Call Ambulance   ", status: .green, shapeColor: "accent1")
-                    .padding(.bottom, 10)
-                PreferencesView(text: "Call Main Contact", status: .green, shapeColor: "accent1")
-                    .padding(.bottom, 10)
-                PreferencesView(text: "Call Police              ", status: .red, shapeColor: "accent1")
-                    .padding(.bottom, -10)
+                
+                Button{
+                    if ambulanceState == true && editState == true {
+                        ambulanceColor = .red
+                        ambulanceState = false
+                    } else if ambulanceState == false && editState == true {
+                        ambulanceColor = .green
+                        ambulanceState = true
+                    }
+                } label: {
+                    PreferencesView(text: "Call Ambulance   ", status: ambulanceColor, shapeColor: "accent1")
+                        .padding(.bottom, 10)
+                }
+                
+                Button{
+                    if mainContactState == true && editState == true {
+                        mainContactColor = .red
+                        mainContactState = false
+                    } else if mainContactState == false && editState == true {
+                        mainContactColor = .green
+                        mainContactState = true
+                    }
+                } label: {
+                    PreferencesView(text: "Call Main Contact", status: mainContactColor, shapeColor: "accent1")
+                        .padding(.bottom, 10)
+                }
+                
+                Button{
+                    if policeState == true && editState == true {
+                        policeColor = .red
+                        policeState = false
+                    } else if policeState == false && editState == true {
+                        policeColor = .green
+                        policeState = true
+                    }
+                } label: {
+                    PreferencesView(text: "Call Police              ", status: policeColor, shapeColor: "accent1")
+                        .padding(.bottom, -10)
+                    
+                }
+                
             }
-            
         }
     }
     
